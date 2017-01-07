@@ -1,0 +1,56 @@
+#infoBlock, #buildListBlock{
+	background: #cc9;
+	border: 2px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 280px;
+	padding: 10px;
+	font-size: 15px;
+	
+	max-height: 400px;	
+	overflow-y: auto;
+	display: none;
+
+	float: right;
+	margin: 20px;
+}
+
+#infoBlock ul, #buildListBlock ul{
+	margin: 0px;
+}
+
+.buildListLi{
+	width: 105%;
+	background: #eec;
+	list-style-type: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-left: -40px;
+	margin-top: 5px;
+	padding: 10px;
+
+	height: 40px;
+}
+
+.buildListLi img, .buildListLi div{
+	/*display: inline-block;*/
+	float: left;
+}
+
+.buildListLi .LiImage{
+	width: 32px;
+	height: 32px;
+	border: 2px solid black;
+}
+
+.buildListLi .LiText{
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.buildListLi .button{
+	min-width: 50px;
+	float: right;
+	width: auto;
+}
+

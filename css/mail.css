@@ -1,0 +1,34 @@
+#mail{
+	margin-left: -40px;
+	margin-right: 40px;
+	max-height: 400px;	
+	overflow-y: scroll;
+	width: 300px;
+
+	border-bottom: 4px solid black;
+}
+
+/* хром, сафари */
+#mail::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+#mail { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+#mail { overflow: -moz-scrollbars-none; }
+
+#mail ul li{
+	margin: 10px;
+	background: #cc9;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+	transition: 1s  ease-out ;
+}
+
+#mail .button{
+	margin-top: 10px;
+}
