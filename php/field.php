@@ -47,7 +47,7 @@
 		};
 		$f=mysql_fetch_array($r);
 
-		$bid = $f[id];
+		$bid = $f["id"];
 		_LOG($bid);
 
 		$r=mysql_query("select field from users where id = 1");
